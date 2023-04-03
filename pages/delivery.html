@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Link CSS-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <!--Link Boostrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
     />
     <!--Link estilo de letra-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap"
       rel="stylesheet"
     />
     <link
@@ -33,7 +33,7 @@
       <!--Inicio Nav-->
       <nav>
         <ul>
-          <li class="li-destacado"><a href="#">Inicio</a></li>
+          <li class="li-destacado"><a href="/index.html">Inicio</a></li>
           <li class="li-destacado"><a href="#">Menu</a></li>
           <li><a href="#">Donde encontrarnos</a></li>
         </ul>
@@ -41,14 +41,27 @@
       <!--Fin Nav-->
     </header>
     <!--Fin Header-->
-    <main>
-      <section class="sec-inicio">
-        <img src="images/img-home/pancho-img.avif" />
-        <img src="images/img-home/burguer-img.avif" />
-        <img src="images/img-home/pizza-img.jpeg" />
-        <img src="images/img-home/papas-fritas-img.webp" />
-      </section>
-    </main>
+    <form action="#">
+        <section class="sec-delivery">
+            <label for="nombre"> Nombre y Apellido:
+                <input type="text" placeholder="Decime tu nombre y apellido">
+                </label>
+            <label for="apellido">Email:
+                <input type="email" placeholder="Decime tu email">
+            </label>
+            <label for="edad">Dirección:
+                <input type="text" placeholder="Decime tu dirección">
+            </label> <br>
+        </section>
+        <label class="textarea">
+            <textarea cols="60" rows="10" placeholder="Hace tu pedido"></textarea>
+        </label>
+    </article> <br>
+    <div class="enviar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </div>
+    </form>
     <!--Inicio footer con boostrap-->
     <div class="container">
       <footer class="py-3 my-4">
@@ -57,10 +70,10 @@
             <a href="/index.html" class="nav-link px-2 text-white">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="/pages/delivery.html" class="nav-link px-2 text-white">Delivery </a>
+            <a href="#" class="nav-link px-2 text-white">Delivery </a>
           </li>
           <li class="nav-item">
-            <a href="/pages/menu.html" class="nav-link px-2 text-white">Menu</a>
+            <a href="menu.html" class="nav-link px-2 text-white">Menu</a>
           </li>
           <li class="nav-item">
             <a href="donde-encontrarnos.html" class="nav-link px-2 text-white"
@@ -68,7 +81,7 @@
             >
           </li>
           <li class="nav-item">
-            <a href="/pages/nosotros.html" class="nav-link px-2 text-white">Sobre nosotros</a>
+            <a href="nosotros.html" class="nav-link px-2 text-white">Sobre nosotros</a>
           </li>
         </ul>
         <p class="text-center text-white">© 2023 Panchetto's, Inc</p>

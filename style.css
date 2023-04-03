@@ -47,7 +47,6 @@ header a {
 }
 .sec-inicio {
   display: grid;
-  grid-template-columns: auto-fit;
   grid-auto-flow: column;
   padding: 5px 0px;
   background-color: rgb(18, 18, 18);
@@ -178,3 +177,34 @@ div iframe{
   .menu-item button:hover{
     background-color: #730101;
   }
+  /*fin menu*/
+.sec-delivery{
+    display: flex;
+    justify-content:center;
+    color: rgb(214, 204, 190);
+    margin: 10px;
+}
+.sec-delivery label{
+    margin: 20px 20px;
+    font-family: 'Alegreya SC', serif;
+}
+.sec-delivery input{
+  margin: 0px 10px;
+}
+.textarea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px 0px;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+.enviar input{
+    margin: 0px 40px 20px;
+    padding: 3px 50px;
+    background: rgb(87, 2, 2);
+}
+.enviar input:hover{
+  background: rgb(144, 12, 2);
+}
