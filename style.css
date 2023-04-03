@@ -11,6 +11,9 @@ header {
   justify-content: space-around;
   padding: 25px 0px;
 }
+header h1{
+  font-size: 0px;
+}
 header h2 {
   display: flex;
   align-items: center;
@@ -183,6 +186,10 @@ div iframe{
     justify-content:center;
     color: rgb(214, 204, 190);
     margin: 10px;
+    font-family: 'Alegreya SC', serif;;
+}
+.sec-delivery p{
+  margin-top: 21px;
 }
 .sec-delivery label{
     margin: 20px 20px;
@@ -207,4 +214,50 @@ div iframe{
 }
 .enviar input:hover{
   background: rgb(144, 12, 2);
+}
+@media only screen and (max-width: 800px) {
+  header h2 {
+    display: none;
+  }
+  header h1{
+    font-size: 120px;
+    font-family: "mistral", cursive;
+    align-items: center;
+    color: rgb(208, 0, 0);
+    text-shadow: 2px 2px 10px #535151;
+    padding-left: 80px;
+  }
+  header ul{
+    display: flex;
+    flex-direction: column;
+  }
+  header li{
+    padding: 1px;
+  }
+  .li-destacado {
+    border-right: none;
+    border-bottom: .5px solid #5f5507;
+  }
+  .menu-container { 
+      display: flex; 
+      flex-direction: column;
+      justify-items: center; 
+      align-items: center;
+     }
+  .menu-container div {
+      padding: 20px; 
+      margin-left: 26% ;
+    }
+    .sec-delivery{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sec-delivery p{
+      margin-bottom: -18px;
+    }
+    textarea{
+      height: max-content;
+      width: 90%;
+    }
 }
