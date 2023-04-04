@@ -1,0 +1,22 @@
+Proyecto HTML
+
+Este es un proyecto de ejemplo para una página web HTML.
+Dedicada a un restaurante ficticio con diferentes sedes y un menu exquisito, tambien cuenta con delivery
+
+Este proyecto contiene una página HTML básica que incluye una imagen, un encabezado, un párrafo y una lista ordenada. La página también utiliza un archivo de estilo CSS externo para dar formato a los elementos.
+Estructura de archivos
+
+El proyecto se compone de los siguientes archivos:
+
+    index.html: el archivo HTML principal que contiene la estructura y contenido de la página.
+    style.css: el archivo CSS externo que define el estilo de la página.
+
+Uso del proyecto
+
+Para utilizar este proyecto, simplemente descarga o clona el repositorio en tu máquina local y abre el archivo index.html en tu navegador web favorito.
+Contribución
+
+Si deseas contribuir a este proyecto, siéntete libre de lo que vea necesario. Cualquier contribución es bienvenida y apreciada.
+
+
+Este proyecto fue creado por Pablo Arienti.
