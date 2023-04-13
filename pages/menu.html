@@ -1,99 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Link CSS-->
-    <link rel="stylesheet" href="/style.css" />
-    <!--Link Boostrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
-    <!--Link estilo de letra-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/1cfac2832ad49f16a3ea6b5c2287af2f?family=Mistral"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <title>Panchetto's</title>
-  </head>
-  <body>
-    <!--Inicio Header-->
-    <header>
-      <!--Titulo-->
-      <h1> P </h1>
-      <h2>Panchetto's</h2>
-      <!--Inicio Nav-->
-      <nav>
-        <ul>
-          <li class="li-destacado"><a href="/index.html">Inicio</a></li>
-          <li class="li-destacado"><a href="#">Menu</a></li>
-          <li><a href="donde-encontrarnos.html">Donde encontrarnos</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Link CSS-->
+  <link rel="stylesheet" href="/style.css" />
+  <!--Link Boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!--Link estilo de letra-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap"
+    rel="stylesheet" />
+  <link href="//db.onlinewebfonts.com/c/1cfac2832ad49f16a3ea6b5c2287af2f?family=Mistral" rel="stylesheet"
+    type="text/css" />
+  <title>Panchetto's</title>
+</head>
+
+<body>
+  <!--Inicio Nav Boostrap-->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Panchetto's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item-2">
+            <a class="nav-link" href="#">
+              <Main>Menu</Main>
+            </a>
+          </li>
+          <li class="nav-item-2">
+            <a class="nav-link" href="./delivery.html">Delivery</a>
+          </li>
+          <li class="nav-item-1">
+            <a class="nav-link" href="./donde-encontrarnos.html">Donde Encontrarnos</a>
+          </li>
         </ul>
-      </nav>
-      <!--Fin Nav-->
-    </header>
-    <!--Fin Header-->
-    <!--Inicio Main-->
-    <div class="menu-container">
-        <div class="menu-item">
-          <img src="/images/img-nosotros/burguer-nosotros.jpg">
-          <h5>Hamburguesa de Pollo</h5>
-          <p>Hamburguesa de pollo al centro, sobre una cama de lechuga fresca y crujiente. Se añade una rodaja de tomate, unas láminas de cebolla morada y pepinillos encurtidos. Se puede también agregar una loncha de queso cheddar derretido sobre la hamburguesa. En una esquina del plato se puede colocar un tazón pequeño con salsa barbacoa o mayonesa con ajo.</p>
-          <button>+ Agregar al carrito</button>
-        </div>
-        <div class="menu-item">
-          <img src="/images/img-nosotros/panchos-nosotros.jpg">
-          <h5>Pacnho Gourmet</h5>
-          <p>En un plato blanco o en un papel kraft se coloca el pancho al centro. El pancho es una salchicha de alta calidad, de carne vacuna o de cerdo, que se encuentra dentro de un pan de tipo brioche. Se agrega una selección de ingredientes gourmet como queso cheddar fundido, cebolla caramelizada, pepinillos, tomate y una salsa especial de mostaza y miel.</p>
-          <button>+ Agregar al carrito</button>
-        </div>
-        <div class="menu-item">
-          <img src="/images/img-nosotros/papas-gourmet.jpg">
-          <h5>Papas Fritas salteadas</h5>
-          <p>Una sartén grande se saltean papas fritas cortadas en cubos con un poco de aceite de oliva y sal, hasta que estén doradas y crujientes. Luego se añade a la sartén una mezcla de hierbas frescas, como el romero y el tomillo, junto con ajo picado y un chorrito de vinagre balsámico para darle un sabor más intenso. Se saltean las papas junto con las hierbas y el ajo.</p>
-          <button>+ Agregar al carrito</button>
-        </div>
-        <div class="menu-item">
-          <img src="/images/img-nosotros/pizza-gourmet.jpg">
-          <h5>Pizza Gourmet</h5>
-          <p>En una tabla de madera o un plato grande se coloca la pizza al centro. La masa de la pizza es fina y crujiente, y se encuentra cubierta con salsa de tomate casera y queso mozzarella fresco. Luego se añade una selección de ingredientes gourmet como prosciutto, hongos porcini, alcachofas, aceitunas kalamata y una lluvia de queso parmesano recien hecho</p>
-          <button>+ Agregar al carrito</button>
-        </div>
+        </li>
+        </ul>
       </div>
-    <!--Inicio footer con boostrap-->
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link px-2 text-white">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="delivery.html" class="nav-link px-2 text-white">Delivery </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-white">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a href="donde-encontrarnos.html" class="nav-link px-2 text-white"
-              >Donde encontrarnos</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="nosotros.html" class="nav-link px-2 text-white">Sobre nosotros</a>
-          </li>
-        </ul>
-        <p class="text-center text-white">© 2023 Panchetto's, Inc</p>
-      </footer>
     </div>
-    <!--Fin footer con boostrap-->
-  </body>
+  </nav>
+  <!--Fin Nav Boostrap-->
+  <!--Inicio Main-->
+  <div class="menu-container">
+    <div class="menu-item">
+      <img src="/images/img-nosotros/burguer-nosotros.jpg">
+      <h5>Hamburguesa de Pollo</h5>
+      <p>Hamburguesa de pollo al centro, sobre una cama de lechuga fresca y crujiente. Se añade una rodaja de tomate,
+        unas láminas de cebolla morada y pepinillos encurtidos. Se puede también agregar una loncha de queso cheddar
+        derretido sobre la hamburguesa. En una esquina del plato se puede colocar un tazón pequeño con salsa barbacoa o
+        mayonesa con ajo.</p>
+      <button>+ Agregar al carrito</button>
+    </div>
+    <div class="menu-item">
+      <img src="/images/img-nosotros/panchos-nosotros.jpg">
+      <h5>Pacnho Gourmet</h5>
+      <p>En un plato blanco o en un papel kraft se coloca el pancho al centro. El pancho es una salchicha de alta
+        calidad, de carne vacuna o de cerdo, que se encuentra dentro de un pan de tipo brioche. Se agrega una selección
+        de ingredientes gourmet como queso cheddar fundido, cebolla caramelizada, pepinillos, tomate y una salsa
+        especial de mostaza y miel.</p>
+      <button>+ Agregar al carrito</button>
+    </div>
+    <div class="menu-item">
+      <img src="/images/img-nosotros/papas-gourmet.jpg">
+      <h5>Papas Fritas salteadas</h5>
+      <p>Una sartén grande se saltean papas fritas cortadas en cubos con un poco de aceite de oliva y sal, hasta que
+        estén doradas y crujientes. Luego se añade a la sartén una mezcla de hierbas frescas, como el romero y el
+        tomillo, junto con ajo picado y un chorrito de vinagre balsámico para darle un sabor más intenso. Se saltean las
+        papas junto con las hierbas y el ajo.</p>
+      <button>+ Agregar al carrito</button>
+    </div>
+    <div class="menu-item">
+      <img src="/images/img-nosotros/pizza-gourmet.jpg">
+      <h5>Pizza Gourmet</h5>
+      <p>En una tabla de madera o un plato grande se coloca la pizza al centro. La masa de la pizza es fina y crujiente,
+        y se encuentra cubierta con salsa de tomate casera y queso mozzarella fresco. Luego se añade una selección de
+        ingredientes gourmet como prosciutto, hongos porcini, alcachofas, aceitunas kalamata y una lluvia de queso
+        parmesano recien hecho</p>
+      <button>+ Agregar al carrito</button>
+    </div>
+  </div>
+  <!--Inicio footer con boostrap-->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="./delivery.html" class="nav-link px-2 text-white">Delivery </a>
+        </li>
+        <li class="nav-item">
+          <a href="./donde-encontrarnos.html" class="nav-link px-2 text-white">Donde encontrarnos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="./nosotros.html" class="nav-link px-2 text-white">Sobre nosotros</a>
+        </li>
+      </ul>
+      <p class="text-center text-white">© 2023 Panchetto's, Inc</p>
+    </footer>
+  </div>
+  <!--Fin footer con boostrap-->
+</body>
+
 </html>
